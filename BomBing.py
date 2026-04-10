@@ -45,7 +45,7 @@ def _sig_handler_1(signum, frame):
     print(f"\n\n{_c['r']}🛑 BOMBING STOPPED BY USER!{_c['e']}")
     print(f"{_c['y']}💀 Total requests: {_state['total']}{_c['e']}")
     print(f"{_c['g']}✅ Successful: {_state['success']}{_c['e']}")
-    print(f"{_c['p']}🔥 Created by: @@8Team/W8SOJIB{_c['e']}")
+    print(f"{_c['p']}🔥 Created by: @RS5Team/RS5ARIF{_c['e']}")
     sys.exit(0)
 
 def _sig_handler_2(signum, frame):
