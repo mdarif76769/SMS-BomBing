@@ -5,7 +5,7 @@ Ultimate SMS Bomber - Simple 3 API Edition (Slow & Controlled)
 Only 3 APIs: BTCL MyBTCL, BTCL PhoneBill, Bioscope Plus
 Each API sends 5 requests one by one with + phone format
 Termux Compatible & Anti-Reverse Engineering
-Created by: @W8Team/W8SOJIB
+Created by: @RS5Team/RS5ARIF
 """
 
 import base64
