@@ -55,34 +55,36 @@ pkg install git -y
 pkg install python python-pip git
 
 # Clone the repository
-git clone https://github.com/W8SOJIB/W8SmsBomberV1
-cd W8SmsBomberV1
+git clone https://github.com/mdarif76769/SMS-BomBing.git
+cd BomBing
 
 # Install dependencies
 pip install -r requirements.txt
+pip install aiohttp
+
 
 # Run the bomber
 python W8SmsBomber.py
 For Desktop (Linux/Windows/Mac)
 # Clone the repository
-git clone https://github.com/W8SOJIB/W8SmsBomberV1
-cd W8SmsBomberV1
+git clone https://github.com/mdarif76769/SMS-BomBing.git
+cd BomBing
 
 # Install dependencies
 pip install -r requirements.txt
+pip install aiohttp
 
 # Run the bomber
-python Bomber.py
+python BomBing.py
 Minimal Installation (Essential only)
 pip install aiohttp requests beautifulsoup4
-python W8SmsBomber.py
+python BomBing.py
 🎯 Usage
 Run the script:
 
-python ultimate_sms_bomber.py
+python BomBing.py
 Enter target phone number:
 
-Supports formats: 01998745882, +8801998745885, ++8801998745885
 Auto-formats to all required variations
 Watch the magic happen:
 
