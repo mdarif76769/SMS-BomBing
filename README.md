@@ -64,7 +64,7 @@ pip install aiohttp
 
 
 # Run the bomber
-python W8SmsBomber.py
+python BomBing.py
 For Desktop (Linux/Windows/Mac)
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
