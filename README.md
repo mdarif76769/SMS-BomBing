@@ -57,12 +57,13 @@ python-pip git
 
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
-cd BomBing
+
+#cd SMS-BomBing
 
 # Install dependencies
 pip install -r requirements.txt
 
-pip install aiohttp
+#pip install aiohttp
 
 
 # Run the bomber
@@ -72,7 +73,7 @@ For Desktop (Linux/Windows/Mac)
 
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
-cd BomBing
+cd SMS-BomBing
 
 # Install dependencies
 pip install -r requirements.txt
