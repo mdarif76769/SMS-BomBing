@@ -52,7 +52,8 @@ pkg update && pkg upgrade
 pkg install git -y
 
 # Install Python and Git
-pkg install python python-pip git
+pkg install python 
+python-pip git
 
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
@@ -60,23 +61,28 @@ cd BomBing
 
 # Install dependencies
 pip install -r requirements.txt
+
 pip install aiohttp
 
 
 # Run the bomber
 python BomBing.py
+
 For Desktop (Linux/Windows/Mac)
+
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
 cd BomBing
 
 # Install dependencies
 pip install -r requirements.txt
+
 pip install aiohttp
 
 # Run the bomber
 python BomBing.py
 Minimal Installation (Essential only)
+
 pip install aiohttp requests beautifulsoup4
 python BomBing.py
 🎯 Usage
