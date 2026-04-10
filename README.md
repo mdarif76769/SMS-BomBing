@@ -58,12 +58,12 @@ python-pip git
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
 
-#cd SMS-BomBing
+cd SMS-BomBing
 
 # Install dependencies
 pip install -r requirements.txt
 
-#pip install aiohttp
+pip install aiohttp
 
 
 # Run the bomber
@@ -73,6 +73,7 @@ For Desktop (Linux/Windows/Mac)
 
 # Clone the repository
 git clone https://github.com/mdarif76769/SMS-BomBing.git
+
 cd SMS-BomBing
 
 # Install dependencies
@@ -85,11 +86,14 @@ python BomBing.py
 Minimal Installation (Essential only)
 
 pip install aiohttp requests beautifulsoup4
+
 python BomBing.py
+
 🎯 Usage
 Run the script:
 
 python BomBing.py
+
 Enter target phone number:
 
 Auto-formats to all required variations
@@ -131,7 +135,9 @@ SSL Bypass: Handles certificate issues automatically
 [TOTAL DAMAGE] 1,250 SMS bombs sent
 🚨 Troubleshooting
 SSL Errors
+
 pip install --upgrade certifi urllib3
+
 Async Errors
 pip install --upgrade aiohttp async-timeout
 Encoding Errors
@@ -139,7 +145,9 @@ pip install --upgrade chardet
 Performance Issues (Linux/Mac)
 pip install uvloop
 Terminal Display Issues
+
 pip install rich colorama termcolor
+
 📱 Termux Specific Tips
 Grant Storage Permission:
 
